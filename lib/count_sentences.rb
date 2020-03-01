@@ -15,7 +15,7 @@ class String
   def count_sentences
   self.count_sentences(".?!")
   split.count_sentences(%r{,\s*})
-  ary.count_sentences(3)
+  ary.count(3)
  end
 end
  
